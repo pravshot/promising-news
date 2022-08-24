@@ -1,6 +1,6 @@
 [submodule "client"]
 	path = client
-	url = ./client
+	url = https://github.com/pravshot/promising-news-client
 [submodule "server"]
 	path = server
-	url = ./server
+	url = https://github.com/pravshot/promising-news-server
