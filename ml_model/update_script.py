@@ -34,7 +34,7 @@ model = keras.models.load_model(
 URL = "https://promising-news-api.herokuapp.com/news"
 
 # get the latest news
-newsapi = NewsApiClient(api_key="06cda5faf3cf4396b3d4daf4a8540669")
+newsapi = NewsApiClient(api_key="")
 # top_headlines = newsapi.get_top_headlines(language='en', country='us', page_size=100, page=1)
 # print(len(top_headlines['articles']))
 # print(top_headlines['totalResults'])
