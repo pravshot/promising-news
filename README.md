@@ -5,10 +5,8 @@ Server side code can be found here: https://github.com/pravshot/promising-news-s
 
 Client side code can be found here: https://github.com/pravshot/promising-news-server.
 
-Uses a machine learning model(LSTM neural network) to predict the sentiment of articles and find the most positive news.
+Uses a machine learning model(LSTM neural network) to predict the sentiment of articles and find the most positive news. Updated daily with new articles.
 
 Demo:
 
-![demo](demo.gif)
-
-Can search/sort by date, title, publication, and positivity!
+![demo](demov2.gif)
