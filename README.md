@@ -9,4 +9,4 @@ Uses a machine learning model(LSTM neural network) to predict the sentiment of a
 
 Demo:
 
-![demo](demov2.gif)
+![demo](demo.gif)
