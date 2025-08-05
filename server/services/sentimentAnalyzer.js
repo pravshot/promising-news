@@ -10,7 +10,7 @@ class SentimentAnalyzer {
     try {
       this.classifier = await pipeline(
         "sentiment-analysis",
-        "Xenova/distilbert-base-uncased-finetuned-sst-2-english"
+        "spkalva3/news-sentiment-model"
       );
 
       this.isInitialized = true;
