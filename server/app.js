@@ -11,6 +11,7 @@ dotenv.config();
 app.use(express.json({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+app.set("trust proxy", true);
 
 app.use("/news", newsRoutes);
 app.use("/update", updateRoutes);
