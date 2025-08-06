@@ -19,6 +19,16 @@ News sentiment analysis is powered by a fine-tuned DistilBERT model, deployed on
 - **Daily Updates**: Fresh articles are automatically collected and analyzed daily
 - **Infinite Scroll**: Seamless browsing experience with pagination and lazy loading
 
+## 🏗️ Project Structure
+
+```
+promising-news/
+├── client/          # React TypeScript frontend
+├── server/          # Node.js Express backend
+├── models/          # ML model training
+└── README.md
+```
+
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -37,6 +47,15 @@ News sentiment analysis is powered by a fine-tuned DistilBERT model, deployed on
 - **DistilBERT** base model fine-tuned for news sentiment analysis
 - **Hugging Face Transformers** for model deployment and inference
 
+## 📊 Model Performance
+
+Our sentiment analysis model demonstrates significant improvement through fine-tuning:
+
+| Model | Accuracy | F1 Score | Improvement |
+|-------|----------|----------|-------------|
+| **Base DistilBERT** | 74.0% | 76.0% | - |
+| **Fine-tuned Model** | **88.5%** | **91.0%** | +14.5% / +15.0% |
+
 ## 📱 Screenshots
 
 ![Screenshot 1](assets/screenshot1.png)
@@ -50,29 +69,6 @@ In an era where negative news often dominates headlines, Promising News aims to:
 - **Combat News Fatigue**: Reduce that overwhelming feeling that comes from constant negative media
 - **Spread Innovations**: Highlight progress, breakthroughs, and positive developments happening around the world
 - **Demonstrate AI for Good**: Show how machine learning can be used to improve daily life experiences
-
-## 🏗️ Project Structure
-
-```
-promising-news/
-├── client/          # React TypeScript frontend
-├── server/          # Node.js Express backend
-├── models/          # ML model training
-└── README.md
-```
-
-
-## 📊 Model Performance
-
-Our sentiment analysis model demonstrates significant improvement through fine-tuning:
-
-| Model | Accuracy | F1 Score | Improvement |
-|-------|----------|----------|-------------|
-| **Base DistilBERT** | 74.0% | 76.0% | - |
-| **Fine-tuned Model** | **88.5%** | **91.0%** | +14.5% / +15.0% |
-
-
-<!-- Add model performance charts and confusion matrices here -->
 
 ## 📄 License
 
