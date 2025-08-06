@@ -82,7 +82,12 @@ function CategoryFilter({ selectedCategories, setSelectedCategories }: CategoryF
                   ) : null;
                 })}
                 {selectedCategories.length > 1 && (
-                  <Text fontSize="2xs" color="gray.600">
+                  <Text 
+                    fontSize="2xs" 
+                    color="gray.600"
+                    alignSelf="center"
+                    lineHeight="1.2"
+                  >
                     +{selectedCategories.length - 1} more
                   </Text>
                 )}

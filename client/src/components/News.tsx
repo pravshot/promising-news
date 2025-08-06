@@ -13,6 +13,7 @@ function News({ articles }: NewsProps) {
       columns={{ base: 1, md: 2, lg: 3 }}
       spacing={6}
       w="100%"
+      justifyItems={{ base: "center", md: "stretch" }}
     >
       {articles.map((article) => (
         <NewsEntry key={article.id} {...article} />
